@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .container {
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    width: 350px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.5);
+  }
+  
+  .container h1 span {
+    color: #38bdf8;
+  }
+  
+  .display {
+    display: flex;
+    align-items: center;
+    background: white;
+    border-radius: 8px;
+    margin: 20px 0;
+    padding: 5px;
+  }
+  
+  .display input {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 8px;
+  }
+  
+  .display img {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  button {
+    background: #38bdf8;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  button img {
+    width: 20px;
+    margin-right: 5px;
+  }
+  
+  #savedPasswords {
+    margin-top: 20px;
+    text-align: left;
+    max-height: 150px;
+    overflow-y: auto;
+  }
+  
+  #savedPasswords h3 {
+    margin-bottom: 10px;
+    color: #38bdf8;
+  }
+  
+  .password-item {
+    background: #334155;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin: 4px 0;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .password-item button {
+    background: #f87171;
+    padding: 4px 8px;
+    border-radius: 6px;
+    font-size: 12px;
+  }
+
+  * Thank you message with hover effect */
+footer {
+  margin-top: 30px;
+}
+
+.thankyou {
+  font-size: 18px;
+  color: #38bdf8;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.thankyou:hover {
+  color: #facc15;
+  transform: scale(1.1);
+  text-shadow: 0px 0px 10px #facc15;
+}
+
